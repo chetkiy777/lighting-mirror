@@ -1,0 +1,108 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.getBtn {
+    border-radius: 9px;
+    max-width: 90px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+
+}
+
+.getBtn:hover {
+    background: darkgrey;
+}
+
+.results {
+    margin-top: 10px
+}
+
+.rightSide {
+    color: white;
+    margin-left: 130px;
+}
+
+.inp {
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 120px;
+    border: 2px solid darkgrey;
+    border-radius: 6px;
+}
+
+.rightSide .summ {
+    font-size: 19px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.isAmalg {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.select {
+    align-items: center;
+    font-size: 12px;
+    margin: 10px;
+    max-width: 120px;
+    background: bisque;
+    border-radius: 10px;
+    border: 2px solid darkgrey;
+}
+
+.label {
+    margin: 10px;
+    font-size: 16px;
+    color: beige;
+    font-weight: bold;
+}
+
+.selectBtnType {
+    margin: 15px;
+    color: beige;
+}
+
+.showInfo {
+    padding-top: 20px;
+}
+
+.showInfo a {
+    color: white;
+}
+
+
+.logo img {
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+.header a {
+    display: inherit;
+    float: right;
+    color: gold;
+    font-size: 18px;
+    padding-top: 70px;
+    margin-left: 40px;
+}
+
+.showInfoBlock {
+    position: absolute;
+    color: palegoldenrod;
+    padding-top: 330px;
+    padding-left: 390px;
+}
+
+.showInfoBlock a {
+    color: gold;
+    font-weight: bold;
+}

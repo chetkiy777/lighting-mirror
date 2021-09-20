@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "ls rs";
+    grid-gap: 20px;
+    background-image: url("./img/2.jpg");
+    background-size: 100%;
+    max-width: 600px;
+   height: 490px;
+    margin: 0 auto;
+}
+
+.leftSide {
+    grid-area: ls;
+}
+
+.rightSide {
+    grid-area: rs;
+}
