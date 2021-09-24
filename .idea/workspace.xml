@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77844d2c-8f7f-492d-942a-d975fb65893e" name="Default Changelist" comment="link change to a with homepage">
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.95091c8b.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.95091c8b.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.81c27971.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.81c27971.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/2.41b204b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/logo.65c945ae.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResultData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShowInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/mainReducer.js" afterDir="false" />
-    </list>
+    <list default="true" id="77844d2c-8f7f-492d-942a-d975fb65893e" name="Default Changelist" comment="link change to a with homepage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +127,7 @@
       <workItem from="1632459407372" duration="301000" />
       <workItem from="1632461009754" duration="3776000" />
       <workItem from="1632465836482" duration="363000" />
-      <workItem from="1632466222504" duration="6371000" />
+      <workItem from="1632466222504" duration="6787000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1625653111781</created>
