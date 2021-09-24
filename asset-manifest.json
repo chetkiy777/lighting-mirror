@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lighting-mirror/static/css/main.d447b8e8.chunk.css",
-    "main.js": "/lighting-mirror/static/js/main.76917283.chunk.js",
-    "main.js.map": "/lighting-mirror/static/js/main.76917283.chunk.js.map",
+    "main.css": "/lighting-mirror/static/css/main.be947a13.chunk.css",
+    "main.js": "/lighting-mirror/static/js/main.d3154992.chunk.js",
+    "main.js.map": "/lighting-mirror/static/js/main.d3154992.chunk.js.map",
     "runtime-main.js": "/lighting-mirror/static/js/runtime-main.81c27971.js",
     "runtime-main.js.map": "/lighting-mirror/static/js/runtime-main.81c27971.js.map",
-    "static/js/2.703b2586.chunk.js": "/lighting-mirror/static/js/2.703b2586.chunk.js",
-    "static/js/2.703b2586.chunk.js.map": "/lighting-mirror/static/js/2.703b2586.chunk.js.map",
+    "static/js/2.e05743e4.chunk.js": "/lighting-mirror/static/js/2.e05743e4.chunk.js",
+    "static/js/2.e05743e4.chunk.js.map": "/lighting-mirror/static/js/2.e05743e4.chunk.js.map",
     "index.html": "/lighting-mirror/index.html",
-    "static/css/main.d447b8e8.chunk.css.map": "/lighting-mirror/static/css/main.d447b8e8.chunk.css.map",
-    "static/js/2.703b2586.chunk.js.LICENSE.txt": "/lighting-mirror/static/js/2.703b2586.chunk.js.LICENSE.txt",
+    "static/css/main.be947a13.chunk.css.map": "/lighting-mirror/static/css/main.be947a13.chunk.css.map",
+    "static/js/2.e05743e4.chunk.js.LICENSE.txt": "/lighting-mirror/static/js/2.e05743e4.chunk.js.LICENSE.txt",
     "static/media/style.module.css": "/lighting-mirror/static/media/2.41b204b0.jpg",
     "static/media/logo.65c945ae.png": "/lighting-mirror/static/media/logo.65c945ae.png"
   },
   "entrypoints": [
     "static/js/runtime-main.81c27971.js",
-    "static/js/2.703b2586.chunk.js",
-    "static/css/main.d447b8e8.chunk.css",
-    "static/js/main.76917283.chunk.js"
+    "static/js/2.e05743e4.chunk.js",
+    "static/css/main.be947a13.chunk.css",
+    "static/js/main.d3154992.chunk.js"
   ]
 }
