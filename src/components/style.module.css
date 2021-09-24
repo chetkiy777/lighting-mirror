@@ -7,15 +7,15 @@ form {
 .getBtn {
     border-radius: 9px;
     max-width: 90px;
-    height: 30px;
+    height: 40px;
     margin-left: 20px;
-    margin-top: 50px;
-
-
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px whitesmoke;
+    font-weight: 700;
 }
 
 .getBtn:hover {
-    background: darkgrey;
+    background: orange;
 }
 
 .results {
@@ -86,27 +86,27 @@ form {
 
 .logo img {
     float: left;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin-left: 20px;
-    padding-top: 12px;
 }
 
 .header a {
-    display: inherit;
+    display: inline-block;
     float: right;
+    text-decoration: none;
     color: gold;
-    font-size: 18px;
-    padding-top: 70px;
-    margin-left: 40px;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top:25px;
 }
 
 .showInfoBlock {
     display: block;
     position: absolute;
-    color: orange;
-    top: 280px;
-    left: 10px;
+    color: greenyellow;
+    top: 300px;
+    left: 20px;
 }
 
 .showInfoBlock a {
@@ -118,4 +118,11 @@ form {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
+}
+
+.kindLed {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
 }

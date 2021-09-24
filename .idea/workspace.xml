@@ -8,13 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.5616e5aa.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.5616e5aa.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.c92284e7.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.c92284e7.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.e57c3efa.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.e57c3efa.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c9ebafe7.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c9ebafe7.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c9ebafe7.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d09b3560.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d09b3560.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/InputData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResultData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShowInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/mainReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.module.css" afterDir="false" />
@@ -142,7 +143,7 @@
       <workItem from="1632461009754" duration="3776000" />
       <workItem from="1632465836482" duration="363000" />
       <workItem from="1632466222504" duration="7924000" />
-      <workItem from="1632475210827" duration="3128000" />
+      <workItem from="1632475210827" duration="5987000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1625653111781</created>

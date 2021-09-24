@@ -8,6 +8,7 @@ const SET_BUTTON_COAST = 'SET_BUTTON_COAST'
 const SET_POWER_BLOCK = 'SET_POWER_BLOCK'
 const SET_LIPS_COAST = 'SET_LIPS_COAST'
 const SET_INSTALL_COAST = 'SET_INSTALL_COAST'
+const SET_LED_COAST = 'SET_LED_COAST'
 
 
 
@@ -26,7 +27,7 @@ let initialState = {
     profileCoast: 95,
     showInfo: false,
     btnTypeCoast: 0,
-    coastLED: 85,
+    coastLED: 0,
     powerBlockType: 0,
     coastLips: 0,
     installCoast: 0
@@ -54,6 +55,9 @@ const mainReducer = (state = initialState, action) => {
             return {...state, coastLips: action.payload}
         case SET_INSTALL_COAST:
             return {...state, installCoast: action.payload}
+        case SET_LED_COAST:
+            return {...state, coastLED: action.payload}
+
         default: return state
     }
 }
@@ -75,6 +79,10 @@ export const setPowerBlock = (payload) => ({type: SET_POWER_BLOCK, payload})
 export const setLipsCoast = (payload) => ({type: SET_LIPS_COAST, payload})
 
 export const setInstallCoast = (payload) => ({type: SET_INSTALL_COAST, payload})
+
+export const setLedCoast = (payload) => ({type: SET_LED_COAST, payload})
+
+
 
 
 

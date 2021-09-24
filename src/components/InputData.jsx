@@ -9,7 +9,8 @@ import {
     setMpog,
     setPowerBlock,
     setLipsCoast,
-    setInstallCoast
+    setInstallCoast,
+    setLedCoast
 } from "../store/mainReducer";
 
 
@@ -26,8 +27,12 @@ export const InputData = () => {
             dispatch(setPowerBlock(290))
         } else if (mpog > 3 && mpog < 4 ) {
             dispatch(setPowerBlock(370))
-        } else if (mpog > 3 && mpog < 10 ) {
+        } else if (mpog > 3 && mpog < 5 ) {
             dispatch(setPowerBlock(450))
+        } else if (mpog > 5 && mpog < 7 ) {
+            dispatch(setPowerBlock(715))
+        } else if (mpog > 7 && mpog < 11 ) {
+            dispatch(setPowerBlock(900))
         }
     }
 
@@ -45,6 +50,12 @@ export const InputData = () => {
         }
     }
 
+    const choiceLedType = (ledType) => {
+        if (ledType === 'bright') {
+            dispatch(setLedCoast(165))
+        } else (dispatch(setLedCoast(85)))
+    }
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -56,8 +67,11 @@ export const InputData = () => {
             isAmalgama: form["isAmalgama"].checked,
             lightType: form["select"].value,
             btnType: form["btnType"].value,
-            lips: form["select"].value
+            lips: form["select"].value,
+            ledType: form["howManyLamps"].value
         }
+
+        choiceLedType(data.ledType)
 
         choiceLips(data.lips)
 
@@ -123,6 +137,11 @@ export const InputData = () => {
                     <div>
                         <input type="radio" value="noBtn" name="btnType"/>
                         <label htmlFor="noBtn">Без Кнопки</label>
+                    </div>
+                    <div className={style.kindLed}>
+                        <span>Сколько диодов на ленте? : </span>
+                        <label>120 диодов<input type='radio' name='howManyLamps' value='low'/></label>
+                        <label>204 диода<input type='radio' name='howManyLamps' value='bright'/></label>
                     </div>
 
                 </div>
