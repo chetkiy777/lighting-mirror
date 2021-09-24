@@ -7,7 +7,6 @@ import {
     setButtonCoast,
     setMkv,
     setMpog,
-    showInfoToggle,
     setPowerBlock,
     setLipsCoast
 } from "../store/mainReducer";
@@ -62,7 +61,6 @@ export const InputData = () => {
         dispatch(setMpog(data))
         dispatch(setAmalgama(data))
         dispatch(setAmalgamaCoast(data))
-        dispatch(showInfoToggle(true))
 
         switch (data.btnType) {
             case "sensorBtn":

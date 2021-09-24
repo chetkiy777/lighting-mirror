@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77844d2c-8f7f-492d-942a-d975fb65893e" name="Default Changelist" comment="link change to a with homepage" />
+    <list default="true" id="77844d2c-8f7f-492d-942a-d975fb65893e" name="Default Changelist" comment="link change to a with homepage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputData.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +131,7 @@
       <workItem from="1632459407372" duration="301000" />
       <workItem from="1632461009754" duration="3776000" />
       <workItem from="1632465836482" duration="363000" />
-      <workItem from="1632466222504" duration="6787000" />
+      <workItem from="1632466222504" duration="7144000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1625653111781</created>
