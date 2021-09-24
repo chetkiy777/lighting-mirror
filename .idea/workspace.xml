@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="77844d2c-8f7f-492d-942a-d975fb65893e" name="Default Changelist" comment="link change to a with homepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.5616e5aa.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.5616e5aa.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c92284e7.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c92284e7.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputData.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResultData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultData.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShowInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShowInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/mainReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +142,7 @@
       <workItem from="1632461009754" duration="3776000" />
       <workItem from="1632465836482" duration="363000" />
       <workItem from="1632466222504" duration="7924000" />
+      <workItem from="1632475210827" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1625653111781</created>

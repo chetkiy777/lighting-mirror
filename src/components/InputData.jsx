@@ -8,7 +8,8 @@ import {
     setMkv,
     setMpog,
     setPowerBlock,
-    setLipsCoast
+    setLipsCoast,
+    setInstallCoast
 } from "../store/mainReducer";
 
 
@@ -38,6 +39,12 @@ export const InputData = () => {
         }
     }
 
+    const setCoastAmalgama = (isAmalgama) => {
+        if (isAmalgama) {
+            dispatch(setAmalgamaCoast(205))
+        }
+    }
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -60,7 +67,9 @@ export const InputData = () => {
         dispatch(setMkv(data))
         dispatch(setMpog(data))
         dispatch(setAmalgama(data))
-        dispatch(setAmalgamaCoast(data))
+        dispatch(setInstallCoast(550))
+
+        setCoastAmalgama(data.isAmalgama)
 
         switch (data.btnType) {
             case "sensorBtn":
@@ -96,8 +105,8 @@ export const InputData = () => {
                     <label className={style.label} htmlFor="select">ЛИПЫ (крепления):
                     <select name="select" className={style.select}>
                         <option value="mini" >100 * 100 (2шт)</option>
-                        <option value="middle" >100 * 100 (2шт)</option>
-                        <option value="large" >100 * 100 (2шт)</option>
+                        <option value="middle" >150 * 90 (2шт)</option>
+                        <option value="large" >250 * 100 (2шт)</option>
                     </select>
                     </label>
                 </div>

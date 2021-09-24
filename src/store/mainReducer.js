@@ -7,6 +7,7 @@ const SET_SHOW_INFO = 'SET_SHOW_INFO'
 const SET_BUTTON_COAST = 'SET_BUTTON_COAST'
 const SET_POWER_BLOCK = 'SET_POWER_BLOCK'
 const SET_LIPS_COAST = 'SET_LIPS_COAST'
+const SET_INSTALL_COAST = 'SET_INSTALL_COAST'
 
 
 
@@ -27,7 +28,8 @@ let initialState = {
     btnTypeCoast: 0,
     coastLED: 85,
     powerBlockType: 0,
-    coastLips: 0
+    coastLips: 0,
+    installCoast: 0
 }
 
 const mainReducer = (state = initialState, action) => {
@@ -39,7 +41,7 @@ const mainReducer = (state = initialState, action) => {
         case SET_AMALGAMA:
             return {...state, isAmalgama: action.data.isAmalgama }
         case SET_AMALGAMA_COAST:
-            return {...state, coastAmalgama: action.data.isAmalgama ? state.coastAmalgama = state.mkv * 205 : state.coastAmalgama = 0 }
+            return {...state, coastAmalgama: action.payload}
         case SET_LIGHT_TYPE_COAST:
             return {...state, coastLightType: state.coastLightType * state.mpog}
         case SET_SHOW_INFO:
@@ -50,6 +52,8 @@ const mainReducer = (state = initialState, action) => {
             return {...state, powerBlockType: action.payload}
         case SET_LIPS_COAST:
             return {...state, coastLips: action.payload}
+        case SET_INSTALL_COAST:
+            return {...state, installCoast: action.payload}
         default: return state
     }
 }
@@ -60,7 +64,7 @@ export const setMpog = (data) => ({type: SET_MPOG, data})
 
 export const setAmalgama = (data) => ({type: SET_AMALGAMA, data})
 
-export const setAmalgamaCoast = (data  ) => ({type: SET_AMALGAMA_COAST, data})
+export const setAmalgamaCoast = (payload)   => ({type: SET_AMALGAMA_COAST, payload})
 
 export const setButtonCoast = (btnTypeCoast) => ({type: SET_BUTTON_COAST, btnTypeCoast})
 
@@ -69,6 +73,9 @@ export const showInfoToggle = (showInfo) => ({type: SET_SHOW_INFO, showInfo})
 export const setPowerBlock = (payload) => ({type: SET_POWER_BLOCK, payload})
 
 export const setLipsCoast = (payload) => ({type: SET_LIPS_COAST, payload})
+
+export const setInstallCoast = (payload) => ({type: SET_INSTALL_COAST, payload})
+
 
 
 

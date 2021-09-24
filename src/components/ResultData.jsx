@@ -1,7 +1,6 @@
 import React from "react"
 import style from "./style.module.css"
 import {useSelector, useDispatch} from "react-redux";
-import {NavLink} from "react-router-dom";
 import {ShowInfo} from "./ShowInfo"
 import {showInfoToggle} from "../store/mainReducer"
 
@@ -19,6 +18,8 @@ export const ResultData = () => {
     const coastLED = useSelector(state => state.mainReducer.coastLED)
     const powerBlockType = useSelector(state => state.mainReducer.powerBlockType)
     const coastLips = useSelector(state => state.mainReducer.coastLips)
+    const installCoast = useSelector(state => state.mainReducer.installCoast)
+
 
     const openInfo = () => {
         dispatch(showInfoToggle(true))
@@ -28,7 +29,7 @@ export const ResultData = () => {
 
 
     let summ = (mkv * 514) + (mpog * 29) + (mkv * coastAmalgama) + (mpog * coastLED)
-               + (mpog * profileCoast) + btnTypeCoast + powerBlockType + coastLips
+               + (mpog * profileCoast) + btnTypeCoast + powerBlockType + coastLips + installCoast
 
 
 

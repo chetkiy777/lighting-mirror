@@ -15,6 +15,8 @@ export const ShowInfo = () => {
     const btnTypeCoast = useSelector(state => state.mainReducer.btnTypeCoast)
     const powerBlockType = useSelector(state => state.mainReducer.powerBlockType)
     const coastLips = useSelector(state => state.mainReducer.coastLips)
+    const installCoast = useSelector(state => state.mainReducer.installCoast)
+
 
     const close = () => {
         dispatch(showInfoToggle(false))
@@ -31,6 +33,8 @@ export const ShowInfo = () => {
             <div className="resItem">Кнопка: {btnTypeCoast.toFixed(2)} </div>
             <div className="resItem">Блок питания: {powerBlockType} </div>
             <div className="resItem">Крепление: {coastLips} </div>
+            <div className="resItem">Сборка: {installCoast} </div>
+
 
             <button onClick={() => close()}>закрыть</button>
         </div>

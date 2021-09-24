@@ -104,9 +104,9 @@ form {
 .showInfoBlock {
     display: block;
     position: absolute;
-    color: palegoldenrod;
-    top: 310px;
-    left: 5px;
+    color: orange;
+    top: 280px;
+    left: 10px;
 }
 
 .showInfoBlock a {
