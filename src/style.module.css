@@ -1,3 +1,7 @@
+.leftSide {
+    grid-area: ls;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,12 +10,9 @@
     background-image: url("./img/2.jpg");
     background-size: 100%;
     max-width: 600px;
-   height: 490px;
+    height: 490px;
     margin: 0 auto;
-}
-
-.leftSide {
-    grid-area: ls;
+    box-shadow: 15px 15px 15px black;
 }
 
 .rightSide {

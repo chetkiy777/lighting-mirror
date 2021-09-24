@@ -23,8 +23,9 @@ form {
 }
 
 .rightSide {
+    position: relative;
     color: white;
-    margin-left: 130px;
+    margin-left: 90px;
 }
 
 .inp {
@@ -37,8 +38,13 @@ form {
 
 .rightSide .summ {
     font-size: 19px;
-    margin-top: 150px;
+    margin-top: 130px;
+    margin-left:60px;
     font-weight: bold;
+}
+
+.rightSide > button {
+    margin-left: 60px;
 }
 
 .isAmalg {
@@ -99,8 +105,8 @@ form {
     display: block;
     position: absolute;
     color: palegoldenrod;
-    top: 332px;
-    left: 945px;
+    top: 310px;
+    left: 5px;
 }
 
 .showInfoBlock a {
