@@ -3,12 +3,12 @@ import style from './style.module.css'
 import {InputData} from "./components/InputData";
 import {ResultData} from "./components/ResultData";
 import {Header} from "./components/Header";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route} from "react-router-dom";
 import {ShowInfo} from "./components/ShowInfo";
 
 const App = (props) => {
   return (
-      <BrowserRouter>
+      <HashRouter>
         <div className={style.wrapper}>
 
             <Header/>
@@ -18,7 +18,7 @@ const App = (props) => {
             <Route path="/showInfo" render={() => <ShowInfo/>}  />
         </div>
 
-      </BrowserRouter>
+      </HashRouter>
   )
 }
 

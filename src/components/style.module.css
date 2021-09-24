@@ -45,12 +45,13 @@ form {
     color: white;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 14px;
 }
 
 .select {
     align-items: center;
-    font-size: 12px;
-    margin: 10px;
+    font-size: 14px;
     max-width: 120px;
     background: bisque;
     border-radius: 10px;
@@ -58,8 +59,7 @@ form {
 }
 
 .label {
-    margin: 10px;
-    font-size: 16px;
+    font-size: 15px;
     color: beige;
     font-weight: bold;
 }
@@ -96,13 +96,20 @@ form {
 }
 
 .showInfoBlock {
+    display: block;
     position: absolute;
     color: palegoldenrod;
-    padding-top: 330px;
-    padding-left: 390px;
+    top: 70%;
+    left: 55%;
 }
 
 .showInfoBlock a {
     color: gold;
     font-weight: bold;
+}
+
+.lips {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }

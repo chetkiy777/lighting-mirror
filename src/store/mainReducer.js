@@ -5,6 +5,11 @@ const SET_AMALGAMA_COAST = 'SET_AMALGAMA_COAST'
 const SET_LIGHT_TYPE_COAST = 'SET_LIGHT_TYPE_COAST'
 const SET_SHOW_INFO = 'SET_SHOW_INFO'
 const SET_BUTTON_COAST = 'SET_BUTTON_COAST'
+const SET_POWER_BLOCK = 'SET_POWER_BLOCK'
+const SET_LIPS_COAST = 'SET_LIPS_COAST'
+
+
+
 
 let initialState = {
     data: {
@@ -16,12 +21,13 @@ let initialState = {
     },
     mkv: 0,
     mpog: 0,
-    coast: 0,
-    summ: 0,
-    coastLightType: 85,
-    profileCoast: 75,
+    coastAmalgama: 0,
+    profileCoast: 95,
     showInfo: false,
-    btnTypeCoast: 0
+    btnTypeCoast: 0,
+    coastLED: 85,
+    powerBlockType: 0,
+    coastLips: 0
 }
 
 const mainReducer = (state = initialState, action) => {
@@ -33,13 +39,17 @@ const mainReducer = (state = initialState, action) => {
         case SET_AMALGAMA:
             return {...state, isAmalgama: action.data.isAmalgama }
         case SET_AMALGAMA_COAST:
-            return {...state, coast: action.data.isAmalgama ? state.coast = state.mkv * 205 : state.coast = 0 }
+            return {...state, coastAmalgama: action.data.isAmalgama ? state.coastAmalgama = state.mkv * 205 : state.coastAmalgama = 0 }
         case SET_LIGHT_TYPE_COAST:
             return {...state, coastLightType: state.coastLightType * state.mpog}
         case SET_SHOW_INFO:
             return {...state, showInfo: action.showInfo}
         case SET_BUTTON_COAST:
             return {...state, btnTypeCoast: action.btnTypeCoast}
+        case SET_POWER_BLOCK:
+            return {...state, powerBlockType: action.payload}
+        case SET_LIPS_COAST:
+            return {...state, coastLips: action.payload}
         default: return state
     }
 }
@@ -55,6 +65,12 @@ export const setAmalgamaCoast = (data  ) => ({type: SET_AMALGAMA_COAST, data})
 export const setButtonCoast = (btnTypeCoast) => ({type: SET_BUTTON_COAST, btnTypeCoast})
 
 export const showInfoToggle = (showInfo) => ({type: SET_SHOW_INFO, showInfo})
+
+export const setPowerBlock = (payload) => ({type: SET_POWER_BLOCK, payload})
+
+export const setLipsCoast = (payload) => ({type: SET_LIPS_COAST, payload})
+
+
 
 
 

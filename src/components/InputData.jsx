@@ -1,5 +1,5 @@
 import React from "react"
-import {useDispatch} from "react-redux"
+import {useDispatch, useSelector} from "react-redux"
 import style from "./style.module.css"
 import {
     setAmalgama,
@@ -7,18 +7,38 @@ import {
     setButtonCoast,
     setMkv,
     setMpog,
-    showInfoToggle
+    showInfoToggle,
+    setPowerBlock,
+    setLipsCoast
 } from "../store/mainReducer";
-
-
-
-
 
 
 export const InputData = () => {
 
 
+    const isImage = useSelector(state => state.mainReducer.data.isAmalgama)
     const dispatch = useDispatch()
+
+    const choicePowerBlock = (mpog) => {
+        if (mpog > 2 && mpog < 0 ) {
+            dispatch(setPowerBlock(265))
+        } else if (mpog > 2 && mpog < 3 ) {
+            dispatch(setPowerBlock(290))
+        } else if (mpog > 3 && mpog < 4 ) {
+            dispatch(setPowerBlock(370))
+        } else if (mpog > 3 && mpog < 10 ) {
+            dispatch(setPowerBlock(450))
+        }
+    }
+
+    const choiceLips = (value) => {
+        if (value === "mini") {
+            dispatch(setLipsCoast(56))
+        } else if (value === "middle" || value === "large") {
+            dispatch(setLipsCoast(100))
+        }
+    }
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -29,9 +49,14 @@ export const InputData = () => {
             kol: +form["kol"].value,
             isAmalgama: form["isAmalgama"].checked,
             lightType: form["select"].value,
-            btnType: form["btnType"].value
+            btnType: form["btnType"].value,
+            lips: form["select"].value
         }
 
+        choiceLips(data.lips)
+
+        const mpogLocal = ((((data.height/1000) + (data.width/1000))*data.kol)*2)
+        choicePowerBlock(mpogLocal)
 
         dispatch(setMkv(data))
         dispatch(setMpog(data))
@@ -39,7 +64,7 @@ export const InputData = () => {
         dispatch(setAmalgamaCoast(data))
         dispatch(showInfoToggle(true))
 
-        switch(data.btnType) {
+        switch (data.btnType) {
             case "sensorBtn":
                 return dispatch(setButtonCoast(550))
             case "mehanicBtn":
@@ -48,9 +73,10 @@ export const InputData = () => {
                 return dispatch(setButtonCoast(0))
         }
 
+
     }
 
-    return(
+    return (
         <div className={style.leftSide}>
 
             <form onSubmit={handleSubmit}>
@@ -59,19 +85,23 @@ export const InputData = () => {
                 <input className={style.inp} type="number" name="kol" placeholder="Кол-во"/>
 
                 <div className={style.isAmalg}>
-                    <label className={style.label} htmlFor="isAmalgama">Снятие Амальгамы: </label>
-                    <input type="checkbox" name="isAmalgama"/>
-
+                    <label className={style.label} htmlFor="isAmalgama">Снятие Амальгамы:
+                        <input type="checkbox" name="isAmalgama"/>
+                    </label>
                 </div>
 
-                <div>
-                    <label className={style.label} htmlFor="select">Свечение:</label>
-                    <select name="select" className={style.select}>
-                        <option value="hot">Тёплый</option>
-                        <option value="middle">Нейтральный</option>
-                        <option value="cold" >Холодный</option>
-                    </select>
+                {isImage ? <input placeholder='введите номер картинки их каталога'/> : ''
 
+                }
+
+                <div className={style.lips}>
+                    <label className={style.label} htmlFor="select">ЛИПЫ (крепления):
+                    <select name="select" className={style.select}>
+                        <option value="mini" >100 * 100 (2шт)</option>
+                        <option value="middle" >100 * 100 (2шт)</option>
+                        <option value="large" >100 * 100 (2шт)</option>
+                    </select>
+                    </label>
                 </div>
 
                 <div className={style.selectBtnType}>
@@ -93,5 +123,6 @@ export const InputData = () => {
             </form>
 
         </div>
+
     )
 }
