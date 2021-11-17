@@ -111,9 +111,7 @@ export const InputData = () => {
                     </label>
                 </div>
 
-                {isImage ? <input placeholder='введите номер картинки их каталога'/> : ''
-
-                }
+                <div></div>
 
                 <div className={style.lips}>
                     <label className={style.label} htmlFor="select">ЛИПЫ (крепления):

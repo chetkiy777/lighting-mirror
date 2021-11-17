@@ -1,20 +1,22 @@
 .leftSide {
-    grid-area: ls;
+  grid-area: ls;
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "ls rs";
-    grid-gap: 20px;
-    background-image: url("./img/2.jpg");
-    background-size: 100%;
-    max-width: 650px;
-    height: 530px;
-    margin: 0 auto;
-    box-shadow: 15px 15px 15px black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "ls rs";
+  grid-gap: 20px;
+  background-image: url("./img/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 650px;
+  height: 530px;
+  margin: 0 auto;
+  box-shadow: 15px 15px 15px black;
 }
 
 .rightSide {
-    grid-area: rs;
+  grid-area: rs;
 }

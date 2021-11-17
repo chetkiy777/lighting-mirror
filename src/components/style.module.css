@@ -1,128 +1,141 @@
 form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
 .getBtn {
-    border-radius: 9px;
-    max-width: 90px;
-    height: 40px;
-    margin-left: 20px;
-    margin-top: 15px;
-    box-shadow: 2px 2px 2px whitesmoke;
-    font-weight: 700;
+  border-radius: 9px;
+  max-width: 90px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 2px whitesmoke;
+  font-weight: 700;
+}
+
+@media (min-width: 767px) {
 }
 
 .getBtn:hover {
-    background: orange;
+  background: orange;
 }
 
 .results {
-    margin-top: 10px
+  margin-top: 10px;
 }
 
 .rightSide {
-    position: relative;
-    color: white;
-    margin-left: 90px;
+  position: relative;
+  color: white;
+  margin-left: 90px;
+}
+
+@media (max-width: 767px) {
+  .rightSide {
+    margin-left: 30px;
+  }
 }
 
 .inp {
-    margin-top: 10px;
-    margin-left: 10px;
-    max-width: 120px;
-    border: 2px solid darkgrey;
-    border-radius: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 120px;
+  border: 2px solid darkgrey;
+  border-radius: 6px;
 }
 
 .rightSide .summ {
-    font-size: 19px;
-    margin-top: 130px;
-    margin-left:60px;
-    font-weight: bold;
+  font-size: 19px;
+  margin-top: 130px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .rightSide .summ {
+    margin-left: 0;
+  }
 }
 
 .rightSide > button {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .isAmalg {
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 14px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 14px;
 }
 
 .select {
-    align-items: center;
-    font-size: 14px;
-    max-width: 120px;
-    background: bisque;
-    border-radius: 10px;
-    border: 2px solid darkgrey;
+  align-items: center;
+  font-size: 14px;
+  max-width: 120px;
+  background: bisque;
+  border-radius: 10px;
+  border: 2px solid darkgrey;
 }
 
 .label {
-    font-size: 15px;
-    color: beige;
-    font-weight: bold;
+  font-size: 15px;
+  color: beige;
+  font-weight: bold;
 }
 
 .selectBtnType {
-    margin: 15px;
-    color: beige;
+  margin: 15px;
+  color: beige;
 }
 
 .showInfo {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .showInfo a {
-    color: white;
+  color: white;
 }
 
-
 .logo img {
-    float: left;
-    height: 60px;
-    width: 60px;
-    margin-left: 20px;
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
 }
 
 .header a {
-    display: inline-block;
-    float: right;
-    text-decoration: none;
-    color: gold;
-    font-size: 20px;
-    margin-left: 80px;
-    margin-top:25px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  color: gold;
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 25px;
 }
 
 .showInfoBlock {
-    display: block;
-    position: absolute;
-    color: greenyellow;
-    top: 300px;
-    left: 20px;
+  display: block;
+  position: absolute;
+  color: greenyellow;
+  top: 300px;
+  left: 20px;
 }
 
 .showInfoBlock a {
-    color: gold;
-    font-weight: bold;
+  color: gold;
+  font-weight: bold;
 }
 
 .lips {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
 }
 
 .kindLed {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
 }

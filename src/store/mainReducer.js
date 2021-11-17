@@ -18,8 +18,7 @@ let initialState = {
         height: 0,
         width: 0,
         kol: 0,
-        isAmalgama: false,
-        lightType: "hot"
+        isAmalgama: false
     },
     mkv: 0,
     mpog: 0,
